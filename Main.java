@@ -99,11 +99,11 @@ public class Main {
             int shotResult = shootCheck(currentBattleField, currentField, x, y);
             if (shotResult == 0) {
                 if (currentName == player1Name) {
-                    currentName = player2Name; //здесь не происходит переключение на другого игрока, если текущий игрок промахнулся
+                    currentName = player2Name; 
                     currentField = player1Field;
                     currentBattleField = battleField2;
                 } else if (currentName == player2Name) {
-                    currentName = player1Name; //здесь не происходит переключение на другого игрока, если текущий игрок промахнулся
+                    currentName = player1Name; 
                     currentField = player2Field;
                     currentBattleField = battleField1;
                 }
